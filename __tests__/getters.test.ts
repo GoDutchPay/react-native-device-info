@@ -45,7 +45,6 @@ memoizedStringGetters.push([
 const nonMemoizedStringGetters = [
   'getMacAddress',
   'getIpAddress',
-  'getPhoneNumber',
   'getCarrier',
 ].map(makeTable);
 
